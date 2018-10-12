@@ -1,49 +1,57 @@
-function add()
-add(a,b)
+function add() {
+  return a+b;
+}
 
-function subtract()
-subtract(a, b)
+var x = add(1, 80);
+document.write(x);
 
-function multiply()
-multiply(a, b)
+function subtract() {
+  return a-b;
+}
 
-function divide()
-divide(a, b)
+var x = subtract(60, 40);
+document.write(x);
 
-inc(n);
+function multiply() {
+  return a*b;
+}
 
-dec(n);
+var x = multiply(2, 3.4);
+document.write(x);
 
-var number = 10;
-function add5() {
-  number += 5;
-  }
-  function divideBy3() {
-    number /= 3}
-    }
-divideBy3()
-console.log(number)
-add5()
-console.log(number)
+function divide() {
+  return a/b;
+}
 
-number =10
-add5()
-console.log(number)
-divideBy3()
-console.log(number)
+var x = divide(5.0, 2.5);
+document.write(x);
 
-parseInt('2', 10)
+var number = 5;
 
-parseInt('2.2222', 10)
+function inc() {
+  return number++;
+}
 
-parseInt('nonsense!', 10)
+function dec() {
+  return number--;
+}
 
-parseFloat('80.123999')
+makeInt(n, 10); {
+  return();
+}
 
-makeInt('2', 10)
+makeInt(n, 10); {
+  return ();
+}
 
-makeInt('2.2222', 10)
+makeInt(n, 10); {
+  return();
+}
 
-makeInt('nonsense!', 10)
+preserveDecimal(); {
+  return parseFloat();
+}
 
-preserveDecimal('80.123999')
+preserveDecimal(); {
+  return();
+}
